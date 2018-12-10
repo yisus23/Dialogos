@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/button"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Dialogo Alerta" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnPerso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personalizado" />
+        <Button
+            android:id="@+id/btnCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diálogo de Selección Check Box" />
+        <Button
+            android:id="@+id/btnRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diálogo de Selección Radio" />
+        <Button
+            android:id="@+id/btnSeleccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diálogo de Selección" />
+        <Button
+            android:id="@+id/btnConfirmacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diálogo de Confirmación" />
+        <Button
+            android:id="@+id/btnAlerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diálogo Alerta" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout> 
